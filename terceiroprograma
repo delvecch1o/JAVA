@@ -1,0 +1,7 @@
+public class TerceiroPrograma {
+
+	public static void main (String [] args) {
+	int quantidade; // Declarando uma variavel inteira
+	quantidade = 10; // atribuindo valor de 10
+	
+	System.out.println (quantidade);
