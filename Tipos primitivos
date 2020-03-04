@@ -1,0 +1,14 @@
+public class TipoPrimitivo {
+	
+	public static void main (String [] args){
+		
+		boolean 1 	false 	true
+		char	16	0		2^15
+		byte	8	-2^7	2^6
+		short	16	-2^15	2^14
+		int 	32	-2^31	2^30
+		long	64	-2^63	2^62
+		float	32	-2^63	2^62
+		double	64	-2^63	2^62
+	}
+}
