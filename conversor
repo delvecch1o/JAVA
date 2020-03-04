@@ -1,0 +1,29 @@
+public class ConversaoTipoPrimitivo {
+	
+	public static void main (String [] args) {
+		long x = 93000000000L; // L faz com que ele exibe na tela
+		//type casting // vamos castar
+		int y = (int)x; // int antes voce esta long e agr forcar ela ser inteira
+		System.out.println (y);
+		
+		
+		int a = 102344;
+		
+		long b = a;
+		System.out.println(b);
+		
+		
+		// perda de precisao
+		double c = 934.5f;
+		
+		float d = (float) c;
+		System.out.println(d);
+		
+		
+		double e = 100.37; // faco ela truncar , pq nao cabe um numero quebrado dentro de um int, ai so arrendonda.
+		int f = (int) e;
+		System.out.println(f);
+		
+		
+	}
+}
