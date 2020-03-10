@@ -1,18 +1,24 @@
-public clss AreaCirculo {
-	
-	public static void main (String [] args) {
-		const pi = 3.14;
+/* Exercícios:
+01) Faça um programa para calcular a área de um circulo a partir do raio.
+
+Fórmula: Multiplique o raio ao quadrado por PI. Vamos considerar Pi = 3.14; */
+/* A = r² x Pi */
+/* "%.2f" -> limita as casas decimais." */
+import java.util.Scanner;
+public class exercicioPOO {
+	public static void main(String[] args) {
+		double Pi = 3.14;
+		double Raio;
+		double area;
 		
-		float area = x;
-		float raio = y;
-	    Scanner sc = new Scanner(System.in);
-        System.out.println("Digite o valor do raio:",raio);
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Digite o valor do raio: ");
+		Raio = sc.nextInt();
+
+		area = (Raio * Raio * Pi);
 		
-		area = (raio * raio) * pi;
+		System.out.println(area);
 		
-		System.out.ptintln (area);
 	}
-		
-		
-	
+	}
 	
