@@ -1,0 +1,18 @@
+public clss AreaCirculo {
+	
+	public static void main (String [] args) {
+		const pi = 3.14;
+		
+		float area = x;
+		float raio = y;
+	    Scanner sc = new Scanner(System.in);
+        System.out.println("Digite o valor do raio:",raio);
+		
+		area = (raio * raio) * pi;
+		
+		System.out.ptintln (area);
+	}
+		
+		
+	
+	
