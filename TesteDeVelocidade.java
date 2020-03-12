@@ -23,14 +23,14 @@ public class TesteDeVelocidade {
             System.out.println("Carro de Passeio");
             int x = velocidadeMaxima * 10 / 100;
  
-            if (velocidadeMaxima + x > velocidadeVeiculo) {
+            if (velocidadeMaxima + x < velocidadeVeiculo) {
                 System.out.println("Multado");
             }
         } else if (numero == 2) {
             System.out.println("Onibus");
             int y = velocidadeMaxima * 5 / 100;
  
-            if (velocidadeMaxima + y > velocidadeVeiculo) {
+            if (velocidadeMaxima + y < velocidadeVeiculo) {
                 System.out.println("Multado");
             }
         }
