@@ -9,7 +9,8 @@ public class OperadorTernario {
 		
 		int idade = entrada.nextInt ();
 		
-		String indicacao = (idade >= 18) ? "adulto" : (idade <= 12 ? "crianca" : " adolescente");
+		String indicacao = (idade >= 18) ? "adulto" : (idade <= 12 ? "crianca" : " adolescente"); // os dois pontos de 
+		// ponto de interrogacao significa if e  : " adolescente os dois pontos ":" significa else
 		
 		System.out.print ("Resultado: " + indicacao);
 		
